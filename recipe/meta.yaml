@@ -1,5 +1,5 @@
 {% set name = "lightly" %}
-{% set version = "1.4.21" %}
+{% set version = "1.4.22" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +9,7 @@ source:
   # Must use GitHub instead of PyPI
   # https://github.com/lightly-ai/lightly/issues/1146
   url: https://github.com/lightly-ai/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 899d1b39c39f07b59c15c63b03d71e099900efc972bcfb0e69db814cec5c3867
+  sha256: efe72a72483e68d0da846c63ef3b7dfc911deb9fe4b62442e0abb87b40f232ba
 
 build:
   noarch: python
