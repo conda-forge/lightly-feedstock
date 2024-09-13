@@ -144,4 +144,5 @@ Feedstock Maintainers
 =====================
 
 * [@guarin](https://github.com/guarin/)
+* [@philippmwirth](https://github.com/philippmwirth/)
 
