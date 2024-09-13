@@ -145,6 +145,3 @@ Feedstock Maintainers
 
 * [@guarin](https://github.com/guarin/)
 
-
-<!-- dummy commit to enable rerendering -->
-
