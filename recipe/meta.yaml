@@ -1,5 +1,5 @@
 {% set name = "lightly" %}
-{% set version = "1.5.10" %}
+{% set version = "1.5.12" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +9,7 @@ source:
   # Must use GitHub instead of PyPI
   # https://github.com/lightly-ai/lightly/issues/1146
   url: https://github.com/lightly-ai/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 14dd6d7b9b27a78203c8b22166c289b1d9a076dee6b8cccbdc1aed13cfc5288d
+  sha256: cbd664cf42ba982a1cbb10e5eef8c28e05c19fd091d35f93d7afc0c4c5e0277c
 
 build:
   noarch: python
@@ -27,7 +27,7 @@ requirements:
     - certifi >=14.05.14
     - hydra-core >=1.0.0
     - lightly-utils >=0.0.0,<0.1.dev0
-    - numpy >=1.18.1, <2
+    - numpy >=1.18.1
     - python-dateutil >=2.5.3
     - requests >=2.23.0
     - six >=1.10
