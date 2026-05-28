@@ -1,5 +1,5 @@
 {% set name = "lightly" %}
-{% set version = "1.5.23" %}
+{% set version = "1.5.24" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lightly-{{ version }}.tar.gz
-  sha256: 00737c90f074012f6c407f9067c88d94c3fc570b62e462af2a55519f04b5af9a
+  sha256: 86b7d53146cb7b404a5d27f63b647a3fb34e2a1ea05bc231c6a188dd26dfffce
 
 build:
   noarch: python
