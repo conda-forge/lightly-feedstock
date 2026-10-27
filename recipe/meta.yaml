@@ -1,13 +1,13 @@
 {% set name = "lightly" %}
-{% set version = "1.5.26" %}
+{% set version = "1.6.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/lightly-{{ version }}.tar.gz
-  sha256: 0c3daa74bda643f4212de1dea6d8e39cd78b6a47bf154bc6b3e9e2baad59eb09
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/lightly-{{ version }}.tar.gz
+  sha256: 05cfb780837989a92cc1255aa0dfef7413881cb99b9e1d2a21b1c2f48231a7e9
 
 build:
   noarch: python
